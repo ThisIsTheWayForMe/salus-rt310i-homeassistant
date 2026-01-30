@@ -1,0 +1,6 @@
+{
+  "name": "SALUS RT310i Thermostat",
+  "render_readme": true,
+  "domains": ["climate"],
+  "homeassistant": "2023.1.0"
+}

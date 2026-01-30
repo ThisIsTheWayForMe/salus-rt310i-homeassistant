@@ -1,0 +1,23 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "SALUS RT310i Setup",
+        "description": "Enter your SALUS account credentials and device ID. To find your device ID, log in to https://salus-it500.com, click on your device, and copy the ID from the page URL.",
+        "data": {
+          "username": "Username/Email",
+          "password": "Password",
+          "device_id": "Device ID"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect to SALUS servers",
+      "invalid_auth": "Invalid username, password, or device ID",
+      "unknown": "Unexpected error occurred"
+    },
+    "abort": {
+      "already_configured": "This device is already configured"
+    }
+  }
+}
